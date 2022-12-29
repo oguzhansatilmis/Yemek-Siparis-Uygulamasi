@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui_admin.adminActivity">
+
+    <Button
+        android:id="@+id/firma_listele_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firmaları Listele"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:textAllCaps="false"
+        android:onClick="firmalariListeleButton"
+        />
+
+    <Button
+        android:id="@+id/musteri_listele_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Müşterileri listele"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/karaliste_musteri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karalisteye Alınan Müşterileri Görüntüle"
+        android:textAllCaps="false"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/karaliste_firma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karalisteye Alınan Firmaları Görüntüle"
+        android:textAllCaps="false"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"/>
+
+
+</GridLayout>
